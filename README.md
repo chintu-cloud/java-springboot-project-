@@ -46,11 +46,6 @@ backend  compose  frontend  jenkins
 [root@ip-172-31-15-19 backend]# ls
 Dockerfile  Dockerfile1  logs  pom.xml  process  src  target
 [root@ip-172-31-15-19 backend]# vi Dockerfile
-```
-<img width="1041" height="395" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/d20d7a1f-0270-4cbf-98e8-683356ea57eb" />
-   # change database url
-   # change database password
-```
 [root@ip-172-31-15-19 backend]# docker build -t backend .
 [root@ip-172-31-15-19 backend]# docker run -dt -p 8082:8084 backend
 191dc7c4308a2229eca305c1e3125d2e597cc95be4b93f0f95afd95675e48289
@@ -59,6 +54,10 @@ CONTAINER ID   IMAGE     COMMAND               CREATED          STATUS         P
 191dc7c4308a   backend   "java -jar app.jar"   10 seconds ago   Up 9 seconds   0.0.0.0:8082->8084/tcp, :::8082->8084/tcp   stoic_khayyam
 [root@ip-172-31-15-19 backend]# cd ..
 ```
+## vi Dockerfile inside
+<img width="1041" height="395" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/d20d7a1f-0270-4cbf-98e8-683356ea57eb" />
+   # change database url
+   # change database password
 
 👉 **Note:** Backend runs on **port 8084**, mapped to **8082** externally.
 
@@ -72,17 +71,8 @@ backend  compose  frontend  jenkins
 [root@ip-172-31-15-19 frontend]# ls
 Dockerfile  app.py  process  requirements.txt
 [root@ip-172-31-15-19 frontend]# vi Dockerfile
-```
-<img width="634" height="240" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/7648b1fa-a8fc-4a21-bd0d-36c89b4023c3" />
-# give private IP
-
-```
 [root@ip-172-31-15-19 frontend]# vi requirements.txt
-```
-<img width="77" height="79" alt="Screenshot (458)" src="https://github.com/user-attachments/assets/a24535e2-5b58-472a-8dad-029e4a5fddcc" />
-# add plotly 
-```
-[root@ip-172-31-15-19 frontend]# docker build -t frontend .                                                                                                                                                                                                      
+[root@ip-172-31-15-19 frontend]# docker build -t frontend .                                                                                                                                                                                                    
 [root@ip-172-31-15-19 frontend]# docker ps
 CONTAINER ID   IMAGE     COMMAND               CREATED         STATUS         PORTS                                       NAMES
 191dc7c4308a   backend   "java -jar app.jar"   5 minutes ago   Up 5 minutes   0.0.0.0:8082->8084/tcp, :::8082->8084/tcp   stoic_khayyam                                                                                                                                                                                    
@@ -95,6 +85,12 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS      
 [root@ip-172-31-15-19 frontend]#
 
 ```
+## vi Dockerfile inside
+<img width="634" height="240" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/7648b1fa-a8fc-4a21-bd0d-36c89b4023c3" />
+# give private IP
+## vi requirements.txt inside
+<img width="77" height="79" alt="Screenshot (458)" src="https://github.com/user-attachments/assets/a24535e2-5b58-472a-8dad-029e4a5fddcc" />
+# add plotly 
 👉 **Note:** Frontend runs on **port 8501**, mapped to **8502** externally.
 
 #  copy <public IP>:<port no.> and hit searchbar
