@@ -11,20 +11,11 @@ Every command is shown with the exact EC2 prompt for reproducibility.
         networking: default
         security group: (All traffic 0.0.0.0/0)
 <img width="893" height="180" alt="Screenshot 2025-12-04 140307" src="https://github.com/user-attachments/assets/10b2a9d8-f102-4564-afa5-ca652c69a249" />
-      # for light weight, low latency
+ # for light weight, low latency
 
 ## 🐳 Step : connect server
-   ,     #_
-   ~\_  ####_        Amazon Linux 2023
-  ~~  \_#####\
-  ~~     \###|
-  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
-   ~~       V~' '->
-    ~~~         /
-      ~~._.   _/
-         _/ _/
-       _/m/'
-Last login: Thu Dec  4 14:38:26 2025 from 18.206.107.27
+<img width="554" height="282" alt="Screenshot 2025-12-04 221114" src="https://github.com/user-attachments/assets/78e9de95-4a55-497d-ac38-016bbedacdc7" />
+
 ## 🐳 Step 1: Switch to Root & Install Docker
 ```bash
 [ec2-user@ip-172-31-15-19 ~]$ sudo su -
