@@ -1,12 +1,12 @@
 name: Full CI/CD Pipeline
 
-on:
+#on:
  # push:
   #  branches: [ "main" ]
 
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
+#jobs:
+ # build-deploy:
+  #  runs-on: ubuntu-latest
 
     steps:
       # 1️⃣ Checkout SCM
