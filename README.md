@@ -50,7 +50,7 @@ Dockerfile  Dockerfile1  logs  pom.xml  process  src  target
 <img width="1041" height="395" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/d20d7a1f-0270-4cbf-98e8-683356ea57eb" />
    # change database url
    # change database password
-```
+
 [root@ip-172-31-15-19 backend]# docker build -t backend .
 [root@ip-172-31-15-19 backend]# docker run -dt -p 8082:8084 backend
 191dc7c4308a2229eca305c1e3125d2e597cc95be4b93f0f95afd95675e48289
