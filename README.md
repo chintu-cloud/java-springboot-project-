@@ -1,5 +1,6 @@
 
-# 🚀 Java Spring Boot + Streamlit Frontend Deployment with Docker & AWS ECR
+# 🚀 Java Spring Boot Backend + 🎨 Streamlit Frontend  
+### 🐳 Deployment with Docker & ☁️ AWS ECR
 
 This guide walks you through setting up Docker, cloning the project, running backend & frontend containers, and finally pushing them to **AWS Elastic Container Registry (ECR)**.  
 Every command is shown with the exact EC2 prompt for reproducibility.
@@ -107,7 +108,7 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS      
  # ex: 100.24.123.169:8502
 <img width="1913" height="962" alt="Screenshot (459)" src="https://github.com/user-attachments/assets/79226f25-475a-4b3b-b053-a903e9936fa2" />
 <img width="1917" height="964" alt="Screenshot (460)" src="https://github.com/user-attachments/assets/07fd6518-7d58-4449-a9b2-0597e0fc98a0" />
-<img width="1917" height="964" alt="Screenshot (460)" src="https://github.com/user-attachments/assets/ca54309b-bb4d-44cc-b225-0d3b34231027" />
+<img width="1920" height="958" alt="Screenshot (461)" src="https://github.com/user-attachments/assets/4e6e5565-2c34-4fa2-8bfc-3e43b99b6d5e" />
 
 
 ---
