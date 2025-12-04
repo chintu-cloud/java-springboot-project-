@@ -11,6 +11,7 @@ Every command is shown with the exact EC2 prompt for reproducibility.
         networking: default
         security group: (All traffic 0.0.0.0/0)
 <img width="893" height="180" alt="Screenshot 2025-12-04 140307" src="https://github.com/user-attachments/assets/10b2a9d8-f102-4564-afa5-ca652c69a249" />
+
  # for light weight, low latency
 
 ## 🐳 Step : connect server
