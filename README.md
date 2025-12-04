@@ -151,5 +151,6 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS      
 - Check **AWS ECR Console** → Images should appear under repositories.  
 - Backend accessible at `http://<EC2-IP>:8082`  
 - Frontend accessible at `http://<EC2-IP>:8502`
+- 
 
 
