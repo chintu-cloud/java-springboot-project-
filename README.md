@@ -102,7 +102,7 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS      
 
 👉 **Note:** Frontend runs on **port 8501**, mapped to **8502** externally.
 
-## copy <public IP:port no.> and hit searchbar
+## copy public IP:port number and hit searchbar
  
  # ex: 100.24.123.169:8502
 <img width="1913" height="962" alt="Screenshot (459)" src="https://github.com/user-attachments/assets/79226f25-475a-4b3b-b053-a903e9936fa2" />
