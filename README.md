@@ -57,6 +57,7 @@ CONTAINER ID   IMAGE     COMMAND               CREATED          STATUS         P
 ## vi Dockerfile inside
 <img width="1041" height="395" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/d20d7a1f-0270-4cbf-98e8-683356ea57eb" />
    # change database url
+   
    # change database password
 
 👉 **Note:** Backend runs on **port 8084**, mapped to **8082** externally.
@@ -88,9 +89,14 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS      
 ## vi Dockerfile inside
 <img width="634" height="240" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/7648b1fa-a8fc-4a21-bd0d-36c89b4023c3" />
 # give private IP
+
+
 ## vi requirements.txt inside
 <img width="77" height="79" alt="Screenshot (458)" src="https://github.com/user-attachments/assets/a24535e2-5b58-472a-8dad-029e4a5fddcc" />
+
 # add plotly 
+
+
 👉 **Note:** Frontend runs on **port 8501**, mapped to **8502** externally.
 
 #  copy <public IP>:<port no.> and hit searchbar
