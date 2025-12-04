@@ -57,7 +57,6 @@ CONTAINER ID   IMAGE     COMMAND               CREATED          STATUS         P
 ## vi Dockerfile inside
 <img width="1041" height="395" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/d20d7a1f-0270-4cbf-98e8-683356ea57eb" />
    # change database url
-   
    # change database password
 
 👉 **Note:** Backend runs on **port 8084**, mapped to **8082** externally.
