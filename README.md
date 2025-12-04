@@ -7,12 +7,12 @@ Every command is shown with the exact EC2 prompt for reproducibility.
 ---
 ## 🐳 Step : lunch server  
         name: Docker
-        instance type: c7i-flex.large     
+        instance type: c7i-flex.large   #  for light weight, low latency 
         networking: default
         security group: (All traffic 0.0.0.0/0)
 <img width="893" height="180" alt="Screenshot 2025-12-04 140307" src="https://github.com/user-attachments/assets/10b2a9d8-f102-4564-afa5-ca652c69a249" />
 
-  for light weight, low latency
+ 
 
 ## 🐳 Step : connect server
 <img width="554" height="282" alt="Screenshot 2025-12-04 221114" src="https://github.com/user-attachments/assets/78e9de95-4a55-497d-ac38-016bbedacdc7" />
